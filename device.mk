@@ -36,4 +36,4 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 include $(LOCAL_PATH)/product/*.mk
 
 # Vendor product configurations
-$(call inherit-product, vendor/sony/dogo/dogo-vendor.mk)
+$(call inherit-product, vendor/sony/dogoorig/dogo-vendor.mk)

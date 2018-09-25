@@ -20,7 +20,7 @@ set -e
 
 # Required!
 export DEVICE_COMMON=fusion3-common
-export DEVICE=dogo
+export DEVICE=dogoorig
 export VENDOR=sony
 
 ./../$DEVICE_COMMON/extract-files.sh $@

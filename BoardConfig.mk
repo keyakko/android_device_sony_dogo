@@ -16,7 +16,7 @@
 #
 
 # Board device path
-DEVICE_PATH := device/sony/dogo
+DEVICE_PATH := device/sony/dogoorig
 
 # Board device headers
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
@@ -28,4 +28,4 @@ include device/sony/fusion3-common/BoardConfigCommon.mk
 include $(DEVICE_PATH)/board/*.mk
 
 # Board device vendor
--include vendor/sony/dogo/BoardConfigVendor.mk
+-include vendor/sony/dogoorig/BoardConfigVendor.mk

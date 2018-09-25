@@ -19,23 +19,23 @@
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configurations
-$(call inherit-product, device/sony/dogo/device.mk)
+$(call inherit-product, device/sony/dogoorig/device.mk)
 
 # Device display
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Device identifications
-PRODUCT_NAME := lineage_dogo
-PRODUCT_DEVICE := dogo
+PRODUCT_NAME := dogoorig
+PRODUCT_DEVICE := dogoorig
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := Xperia ZR
 
 # Build properties
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=C5503 \
-    PRIVATE_BUILD_DESC="C5503-user 5.1.1 10.7.A.0.228 58103698 release-keys"
+    PRODUCT_NAME=dogoorig \
+    PRIVATE_BUILD_DESC="dogoorig-user 16 10.7.A.0.228 11111111 release-keys"
 
 # Build fingerprint
-BUILD_FINGERPRINT := Sony/C5503/C5503:5.1.1/10.7.A.0.228/58103698:user/release-keys
+BUILD_FINGERPRINT := Sony/dogoorig/dogoorig:16/10.7.A.0.228/11111111:user/release-keys
